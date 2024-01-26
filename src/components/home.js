@@ -587,16 +587,14 @@ const Home = () => {
                               {items?.SponsorID?.Sponsor_Address == undefined && items?.sponsord == undefined ? (
                                 <div></div>
                               ) : (
-                                <div className="sponsored_by">
+                                <div className="sponsored_by1">
                                   <h5
                                     style={{
                                       fontSize: "16px",
                                       fontWeight: "bold",
                                     }}
                                   >
-
-                                    {/* {items?.SponsorID?.Sponsor_name} */}
-                                    {items?.sponsord}
+                                    {items?.SponsorID?.Sponsor_name}
 
                                   </h5>
                                   {items?.SponsorID?.Check_sponsor == "true" &&
@@ -708,7 +706,7 @@ const Home = () => {
                               items?.SponsorID?.Sponsor_Address == undefined ? (
                               <div></div>
                             ) : (
-                              <div className="sponsored_by">
+                              <div className="sponsored_by1">
                                 <h5
                                   style={{
                                     fontSize: "16px",
