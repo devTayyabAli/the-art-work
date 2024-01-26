@@ -595,7 +595,7 @@ const VoteDetails = () => {
                               undefined ? (
                               <div></div>
                             ) : (
-                              <div className="sponsored_by mb-3">
+                              <div className="sponsored_by1 mb-3">
                                 <h5
                                   style={{
                                     fontSize: "16px",
@@ -870,7 +870,7 @@ const VoteDetails = () => {
                           url_data?.SponsorID?.Sponsor_Address == undefined ? (
                             <div></div>
                           ) : (
-                            <div className="sponsored_by mb-3">
+                            <div className="sponsored_by1 mb-3">
                               <h5
                                 style={{ fontSize: "16px", fontWeight: "bold" }}
                               >
