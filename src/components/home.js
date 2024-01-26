@@ -594,7 +594,10 @@ const Home = () => {
                                       fontWeight: "bold",
                                     }}
                                   >
-                                    {items?.SponsorID?.Sponsor_name}
+
+                                    {/* {items?.SponsorID?.Sponsor_name} */}
+                                    {items?.sponsord}
+
                                   </h5>
                                   {items?.SponsorID?.Check_sponsor == "true" &&
                                     items?.SponsorID?.Sponsor_Address !==

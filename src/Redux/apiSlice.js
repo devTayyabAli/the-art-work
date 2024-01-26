@@ -36,6 +36,8 @@ export const get_All_Candidate = createAsyncThunk("lorem/get_All_CandidateData",
         againt: members?.againt,
         fors: members?.fors,
         SponsorID: item?.SponsorID,
+        sponsord: item?.sponsord,
+
       };
     });
     let arrayData = Promise.all(promises)
